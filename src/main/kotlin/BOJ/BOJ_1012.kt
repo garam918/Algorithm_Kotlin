@@ -2,8 +2,8 @@ package BOJ
 
 import java.util.*
 
-lateinit var map : Array<IntArray>
-lateinit var visit : Array<BooleanArray>
+private lateinit var map : Array<IntArray>
+private lateinit var visit : Array<BooleanArray>
 private var x = 0
 private var y = 0
 
@@ -49,15 +49,15 @@ fun main(){
     }
 }
 
-fun bfs(x: Int, y: Int){
+private fun bfs(x: Int, y: Int){
     val qux : Queue<Int> = LinkedList()
     val quy : Queue<Int> = LinkedList()
 
     qux.offer(x)
     quy.offer(y)
 
-    var xxx = x
-    var yyy = y
+    var xxx: Int
+    var yyy: Int
 
     while(!qux.isEmpty() && !quy.isEmpty()){
         xxx = qux.poll()
