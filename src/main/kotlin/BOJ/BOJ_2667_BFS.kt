@@ -28,7 +28,7 @@ fun main(){
 
     for (ii in 0 until n) {
         for (jj in 0 until n) {
-            if (map[ii][jj] == 1 && !visit[ii][jj]){
+            if (map[ii][jj] == 1 && !visit  [ii][jj]){
                 bfs(ii,jj)
             }
         }
