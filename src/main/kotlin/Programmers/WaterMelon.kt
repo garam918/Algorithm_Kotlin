@@ -22,7 +22,6 @@ private fun solution(n: Int): String {
     }
 
     answer = arrayList.joinToString().replace(",","").replace(" ","")
-    println(answer)
 
     return answer
 }
