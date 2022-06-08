@@ -1,4 +1,4 @@
-package BOJ
+package BOJ.BFS
 
 import java.util.*
 

@@ -1,4 +1,4 @@
-package BOJ
+package BOJ.BFS
 
 import java.util.*
 
@@ -24,8 +24,8 @@ fun main(){
         n = st[1].toInt()
         val k = st[2].toInt()
 
-        map = Array(m+1) { IntArray(n + 1) }
-        visit = Array(m+1){ BooleanArray(n+1){ false} }
+        map = Array(m +1) { IntArray(n + 1) }
+        visit = Array(m +1){ BooleanArray(n +1){ false} }
         count = 0
 
         for (j in 0 until k) {
