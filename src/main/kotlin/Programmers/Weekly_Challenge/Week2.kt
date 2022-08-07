@@ -16,7 +16,7 @@ private fun solution(scores: Array<IntArray>): String {
             list[it] = scores[it][i]
         }
 
-        answer += if(list.min() == scores[i][i] || list.max() == scores[i][i]) {
+        answer += if(list.minOrNull() == scores[i][i] || list.maxOrNull() == scores[i][i]) {
             list.sorted().forEachIndexed { index, int ->
                 if (scores[i][i] == int) count++
             }
