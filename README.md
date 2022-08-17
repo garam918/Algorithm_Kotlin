@@ -7,4 +7,3 @@
 1) Baekjoon 문제 유형별로 풀기
    
 2) Programmers 문제 Level별로 풀기
-   - 레벨 1부터 순서대로
