@@ -2,7 +2,6 @@ package BOJ.DP
 
 fun main() {
     val (d,k) = readln().split(" ").map { it.toInt() }
-
     val x = dp(d-2)
     val y = dp(d-1)
 
