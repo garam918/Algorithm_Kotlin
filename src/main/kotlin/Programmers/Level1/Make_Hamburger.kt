@@ -4,7 +4,6 @@ fun main() = println(solution(intArrayOf(2,1,1,2,3,1,2,3,1)))
 
 private fun solution(ingredient: IntArray): Int {
     var answer = 0
-
     val builder = StringBuilder()
 
     ingredient.forEach {
