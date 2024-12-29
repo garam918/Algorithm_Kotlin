@@ -13,7 +13,7 @@ fun main() {
 }
 
 private fun solution(name: Array<String>, yearning: IntArray, photo: Array<Array<String>>): IntArray {
-    var answer = IntArray(photo.size)
+    val answer = IntArray(photo.size)
 
     val scoreMap = mutableMapOf<String,Int>()
 
